@@ -104,5 +104,5 @@ You might want to change your UI DPI in winecfg (I brought mine up to 133 DPI fo
 
 #Things that still need work
 * [ ] Get vulkan renderer to work
-* [ ] Experiment with OpenCuda for rendering
+* [ ] Get some sort of acceleration for cycles so rendering is useful.
 * [ ] Get the auto updater to auto update reliably.
