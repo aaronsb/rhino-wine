@@ -6,6 +6,8 @@ Install Rhino 7 on Ubuntu based OS (KDE on Jammy in this case)
 
 ``sudo apt install wine wine32 winetricks mono-complete winbind``
 
+* [ ] Initialize your default Wine environment (which will be located under ~/.wine
+
 ``wineboot -u``
 
 * [ ] install gecko browser for wine (required for license config to work)
