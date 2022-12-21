@@ -101,3 +101,8 @@ The license service is listening on tcp:1717 for the authorization string - depe
 Now, use Rhino! Save your work often, this isn't a supported configuration and it could crash in unexpected ways. From this point, I have been using Rhino for some projects that aren't exotic - default out of the box features. It works for me so far without much drama.
 
 You might want to change your UI DPI in winecfg (I brought mine up to 133 DPI for my 4K monitor), and definitely experiment with customizing the settings in UI and font to your taste.
+
+#Things that still need work
+* [ ] Get vulkan renderer to work
+* [ ] Experiment with OpenCuda for rendering
+* [ ] Get the auto updater to auto update reliably.
