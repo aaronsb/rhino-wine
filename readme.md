@@ -3,6 +3,7 @@ Install Rhino 7 on Ubuntu based OS (KDE on Jammy in this case)
 ⚠**This assumes a non existant wine prefix or even a wine installation. If you have an existing wine prefix there may be things that interfere with this guide.**
 
 * [ ] Start by installing wine and some required adjacent libraries. 
+
 ``sudo apt install wine wine32 winetricks mono-complete winbind``
 
 ``wineboot -u``
