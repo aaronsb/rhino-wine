@@ -97,3 +97,7 @@ The license service is listening on tcp:1717 for the authorization string - depe
 * [ ] Answer/dismiss the usage tracking dialog
 * [ ] Run Grasshopper from within Rhino and select any example document to start it.
 * [ ] Grasshopper font mapper will announce that Segoe Print is not available. Confirm the suggested alternative, Tahoma
+
+Now, use Rhino! Save your work often, this isn't a supported configuration and it could crash in unexpected ways. From this point, I have been using Rhino for some projects that aren't exotic - default out of the box features. It works for me so far without much drama.
+
+You might want to change your UI DPI in winecfg, and definitely experiment with customizing the settings in UI and font to your taste.
