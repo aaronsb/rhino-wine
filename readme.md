@@ -39,8 +39,11 @@ Install Rhino 7 on Ubuntu based OS (KDE on Jammy in this case)
 * [ ] A few more winetricks to install here.
 
 ``winetricks vulkanrt``
+
 ``winetricks dxvk``
+
 ``winetricks gdiplus``
+
 
 * [ ] Force wine to appear as Windows 10
 
@@ -83,6 +86,7 @@ The only libraries in Wine Configuration (winecfg) should be the following:
 * [ ] Change to installed Rhino directory and run rhino
 
 ``cd ~/.wine/drive_c/Program Files/Rhino 7/System``
+
 ``wine rhino.exe``
 
 * [ ] First time running rhino.exe brings up the installer dialog (the one asking to reinstall or repair). I've tried this a few times and it's repeatable, so just close the dialog box with the upper right X. The web based license process will then proceed.
