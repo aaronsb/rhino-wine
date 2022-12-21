@@ -65,9 +65,9 @@ The only libraries in Wine Configuration (winecfg) should be the following:
 
 ``winecfg``
 
-* [ ] Set renderer to no3d - although Rhino still uses gpu acceleration? this part is magic to me. ✨
+* [ ] Set renderer to gdi - although Rhino still uses gpu acceleration? this part is magic to me. ✨
 
-``winetricks renderer=no3d``
+``winetricks renderer=gdi``
 
 * [ ] 🔪 Kill all existing remaining wine processes. This can be done in any terminal in your current session. (bash/zsh)
 
