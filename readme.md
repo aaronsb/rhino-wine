@@ -13,10 +13,15 @@ Install Rhino 7 on Ubuntu based OS (KDE on Jammy in this case)
 * [ ] install gecko browser for wine (required for license config to work)
 
 ``mkdir ~/.cache/wine``
+
 ``cd ~/.cache/wine``
+
 ``wget http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi``
+
 ``wget http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi``
+
 ``wineboot``
+
 
 * [ ] various winetricks commands will log a lot of errors and warnings and yet still work. (Task Failed Successfuly?) so don't get too worried
 
