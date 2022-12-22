@@ -110,6 +110,8 @@ I definitely think staging 7.1 has less overall glitchy stuff going on such as v
 
 I installed nvidia cuda support, and my system shows cuda available, but rhino does not detect cuda capability passeed to it from wine(-staging). I had read that staging has better cuda support.
 
+Render command seems fairly broken. Doesn't matter if it's new render or old render method. Render UI has black button regions and other artifacts.
+
 * [x] Get vulkan renderer to work
 * [ ] Get some sort of acceleration for cycles so rendering is useful.
 * [ ] Get the auto updater to auto update reliably.
