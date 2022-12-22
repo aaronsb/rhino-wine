@@ -104,7 +104,9 @@ You might want to change your UI DPI in winecfg (I brought mine up to 133 DPI fo
 
 Notes and ideas.
 
-Using wine-staging (7.1) I can use vulkan, gl, gdi, or no3d. They all appear to have similar performance and all seem to use the gpu for in-UI rendering.
+Using wine-staging (7.1) I can use vulkan, gl, gdi, or no3d. They all appear to have similar performance and all seem to use the gpu for in-UI viewport rendering. Using any other renderer besides gdi or no3d causes user interface artifacts such as black regions around some dialog and UI elements. Currently it seems using GDI has the least artifacts when using the application.
+
+I definitely think staging 7.1 has less overall glitchy stuff going on such as viewport refresh issues.
 
 I installed nvidia cuda support, and my system shows cuda available, but rhino does not detect cuda capability passeed to it from wine(-staging). I had read that staging has better cuda support.
 
