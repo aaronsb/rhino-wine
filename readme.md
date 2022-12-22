@@ -102,7 +102,12 @@ Now, use Rhino! Save your work often, this isn't a supported configuration and i
 
 You might want to change your UI DPI in winecfg (I brought mine up to 133 DPI for my 4K monitor), and definitely experiment with customizing the settings in UI and font to your taste.
 
-#Things that still need work
-* [ ] Get vulkan renderer to work
+Notes and ideas.
+
+Using wine-staging (7.1) I can use vulkan, gl, gdi, or no3d. They all appear to have similar performance and all seem to use the gpu for in-UI rendering.
+
+I installed nvidia cuda support, and my system shows cuda available, but rhino does not detect cuda capability passeed to it from wine(-staging). I had read that staging has better cuda support.
+
+* [x] Get vulkan renderer to work
 * [ ] Get some sort of acceleration for cycles so rendering is useful.
 * [ ] Get the auto updater to auto update reliably.
