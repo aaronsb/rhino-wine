@@ -104,7 +104,7 @@ You might want to change your UI DPI in winecfg (I brought mine up to 133 DPI fo
 
 Notes and ideas.
 
-Using wine-staging (7.1) I can use vulkan, gl, gdi, or no3d. They all appear to have similar performance and all seem to use the gpu for in-UI viewport rendering. Using any other renderer besides gdi or no3d causes user interface artifacts such as black regions around some dialog and UI elements. Currently it seems using Vulkan has the least artifacts when using the application.
+Using wine-staging (7.1) I can use vulkan, gl, gdi, or no3d. They all appear to have similar performance and all seem to use the gpu for in-UI viewport rendering. Using any other renderers causes various nterface artifacts such as black regions around some dialog and UI elements. Currently it seems using Vulkan has the least artifacts when using the application.
 
 I definitely think staging 7.1 has less overall glitchy stuff going on such as viewport refresh issues.
 
