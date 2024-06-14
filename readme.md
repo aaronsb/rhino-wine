@@ -1,4 +1,4 @@
-Install Rhino 7 on Ubuntu based OS (KDE on Ubuntu Noble in this case)
+Install Rhino 7 on Ubuntu based OS (KDE on Ubuntu Noble in this case) I used Wine 9.10 (Staging)
 
 ⚠**This assumes a non existant wine prefix or even a wine installation. If you have an existing wine prefix there may be things that interfere with this guide.**
 
