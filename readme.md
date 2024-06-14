@@ -1,4 +1,4 @@
-Install Rhino 7 on Ubuntu based OS (KDE on Jammy in this case)
+Install Rhino 7 on Ubuntu based OS (KDE on Ubuntu Noble in this case)
 
 ⚠**This assumes a non existant wine prefix or even a wine installation. If you have an existing wine prefix there may be things that interfere with this guide.**
 
@@ -16,9 +16,9 @@ Install Rhino 7 on Ubuntu based OS (KDE on Jammy in this case)
 
 ``cd ~/.cache/wine``
 
-``wget http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi``
+``wget [http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi](https://dl.winehq.org/wine/wine-gecko/2.47.4/wine-gecko-2.47.4-x86.msi)``
 
-``wget http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi``
+``wget [http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi](https://dl.winehq.org/wine/wine-gecko/2.47.4/wine-gecko-2.47.4-x86_64.msi)``
 
 ``wineboot``
 
@@ -38,7 +38,7 @@ Install Rhino 7 on Ubuntu based OS (KDE on Jammy in this case)
 
 * [ ] A few more winetricks to install here.
 
-``winetricks vulkanrt``
+``winetricks vkd3d``
 
 ``winetricks dxvk``
 
