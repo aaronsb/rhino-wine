@@ -40,9 +40,9 @@ Install Rhino 7 on Ubuntu based OS (KDE on Ubuntu Noble in this case) I used Win
 
 ``winetricks vkd3d dxvk gdiplus``
 
-* [ ] A set offscreen rendering to backbuffer.
+* [ ] Set offscreen rendering to backbuffer.
 
-winetricks orm=backbuffer
+``winetricks orm=backbuffer``
 
 * [ ] Force wine to appear as Windows 10
 
