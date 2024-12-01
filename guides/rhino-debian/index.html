@@ -714,7 +714,7 @@
 <p>Now, use Rhino! Save your work often, this isn't a supported configuration and it could crash in unexpected ways. From this point, I have been using Rhino for some projects that aren't exotic - default out of the box features. It works without much drama.</p>
 <p>You might want to change your UI DPI in winecfg (I brought mine up to 133 DPI for my 4K monitor), and definitely experiment with customizing the settings in UI and font to your taste.</p>
 <h2 id="notes-and-ideas">Notes and Ideas</h2>
-<p>Using wine-staging (7.1) I can use vulkan, gl, gdi, or no3d. They all appear to have similar performance and all seem to use the gpu for in-UI viewport rendering. Using any other renderers causes various interface artifacts such as black regions around some dialog and UI elements. Currently it seems using Vulkan has the least artifacts when using the application.</p>
+<p>Using wine 9.20 I can use vulkan, gl, gdi, or no3d. They all appear to have similar performance and all seem to use the gpu for in-UI viewport rendering. Using any other renderers causes various interface artifacts such as black regions around some dialog and UI elements. Currently it seems using Vulkan has the least artifacts when using the application.</p>
 <p>Wine-staging has less overall glitchy behavior such as viewport refresh issues.</p>
 <p>For NVIDIA users, while CUDA support can be installed, Rhino does not currently detect CUDA capability passed through wine-staging, even though staging has better CUDA support.</p>
 <p>Render command seems fairly broken. Doesn't matter if it's new render or old render method. Render UI has black button regions and other artifacts.</p>
