@@ -50,6 +50,7 @@ nav:
   - Guides:
     - Arch Linux: guides/rhino-arch.md
     - Debian: guides/rhino-debian.md
+    - Setup Scripts: guides/setup-scripts.md
 
 plugins:
   - search
