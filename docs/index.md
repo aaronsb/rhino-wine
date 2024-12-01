@@ -30,9 +30,10 @@ While McNeel has been supportive of users running Rhino on Wine, this is not an 
 ## Contributing
 This is an open project and contributions are welcome. If you find improvements or solutions for different distributions, please consider submitting a pull request.
 
-## Distribution-Specific Guides
+## Installation Guides
 - [Debian-based Installation](guides/rhino-debian.md)
 - [Arch Linux Installation](guides/rhino-arch.md)
+- [Automated Setup Scripts](guides/setup-scripts.md) - For automated installation using our tested scripts
 
 ## Directory Structure
 ```
@@ -41,10 +42,13 @@ rhino-wine/
 ├── guides/
 │   ├── rhino-debian.md
 │   ├── rhino-arch.md
+│   ├── setup-scripts.md
 │   └── media/
 ├── media/
 │   └── rhino-wine.png
 └── scripts/
+    ├── setup-rhino7-arch.sh
+    └── setup-rhino7-debian.sh
 ```
 
 ## Tested Configurations
