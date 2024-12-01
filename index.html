@@ -401,9 +401,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#distribution-specific-guides" class="md-nav__link">
+  <a href="#installation-guides" class="md-nav__link">
     <span class="md-ellipsis">
-      Distribution-Specific Guides
+      Installation Guides
     </span>
   </a>
   
@@ -645,9 +645,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#distribution-specific-guides" class="md-nav__link">
+  <a href="#installation-guides" class="md-nav__link">
     <span class="md-ellipsis">
-      Distribution-Specific Guides
+      Installation Guides
     </span>
   </a>
   
@@ -723,10 +723,11 @@
 <p>While McNeel has been supportive of users running Rhino on Wine, this is not an officially supported configuration. The solutions presented here come from extensive testing and refinement. When you encounter issues, please open an issue in this repository.</p>
 <h2 id="contributing">Contributing</h2>
 <p>This is an open project and contributions are welcome. If you find improvements or solutions for different distributions, please consider submitting a pull request.</p>
-<h2 id="distribution-specific-guides">Distribution-Specific Guides</h2>
+<h2 id="installation-guides">Installation Guides</h2>
 <ul>
 <li><a href="guides/rhino-debian/">Debian-based Installation</a></li>
 <li><a href="guides/rhino-arch/">Arch Linux Installation</a></li>
+<li><a href="guides/setup-scripts/">Automated Setup Scripts</a> - For automated installation using our tested scripts</li>
 </ul>
 <h2 id="directory-structure">Directory Structure</h2>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>rhino-wine/
@@ -734,10 +735,13 @@
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├── guides/
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   ├── rhino-debian.md
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   ├── rhino-arch.md
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│   └── media/
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>├── media/
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│   └── rhino-wine.png
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>└── scripts/
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│   ├── setup-scripts.md
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│   └── media/
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>├── media/
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│   └── rhino-wine.png
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>└── scripts/
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    ├── setup-rhino7-arch.sh
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    └── setup-rhino7-debian.sh
 </code></pre></div>
 <h2 id="tested-configurations">Tested Configurations</h2>
 <p>Currently tested and working combinations:</p>
