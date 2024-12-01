@@ -48,31 +48,11 @@ reg add 'HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ThemeManage
 echo "Installing GameMode..."
 sudo apt install -y gamemode
 
-# Graphics drivers installation prompt
-echo "Would you like to install graphics drivers? [y/N]"
+# Gamemode installation prompt
+echo "Would you like to install the gamemode package? [y/N]"
 read -r response
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
-    echo "Select your graphics card:"
-    echo "1) NVIDIA"
-    echo "2) AMD"
-    echo "3) Intel"
-    read -r choice
-    case $choice in
-        1)
-            echo "Please enter the NVIDIA driver version (e.g., 535):"
-            read -r version
-            sudo apt install -y nvidia-driver-$version
-            ;;
-        2)
-            sudo apt install -y mesa-vulkan-drivers vulkan-tools
-            ;;
-        3)
-            sudo apt install -y mesa-vulkan-drivers vulkan-tools
-            ;;
-        *)
-            echo "Invalid choice. Skipping graphics driver installation."
-            ;;
-    esac
+    sudo apt install -y gamemode
 fi
 
 echo "Setup complete! You can now download and install Rhino 7."

@@ -51,32 +51,13 @@ reg add 'HKEY_CURRENT_USER\Software\Wine\Direct3D' /v renderer /t REG_SZ /d vulk
 echo "Disabling theme for tooltip compatibility..."
 reg add 'HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ThemeManager' /v ThemeActive /t REG_SZ /d 0 /f
 
-echo "Installing additional recommended packages..."
-sudo pacman -S --noconfirm gamemode lib32-gamemode
 
-# Graphics drivers installation prompt
-echo "Would you like to install graphics drivers? [y/N]"
+
+# Gamemode installation prompt
+echo "Would you like to install the gamemode package? [y/N]"
 read -r response
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
-    echo "Select your graphics card:"
-    echo "1) NVIDIA"
-    echo "2) AMD"
-    echo "3) Intel"
-    read -r choice
-    case $choice in
-        1)
-            sudo pacman -S --noconfirm nvidia nvidia-utils lib32-nvidia-utils
-            ;;
-        2)
-            sudo pacman -S --noconfirm mesa lib32-mesa xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon
-            ;;
-        3)
-            sudo pacman -S --noconfirm mesa lib32-mesa vulkan-intel lib32-vulkan-intel
-            ;;
-        *)
-            echo "Invalid choice. Skipping graphics driver installation."
-            ;;
-    esac
+    sudo pacman -S --noconfirm gamemode
 fi
 
 echo "Setup complete! You can now download and install Rhino 7."
